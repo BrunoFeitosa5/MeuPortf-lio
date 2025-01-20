@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+
+
+
+
+header {
+    background-image: url(img/fundo-vetorial-para-apresentacao-powerpoint-sobre-tecnologia_1106493-256884.avif);
+    background-repeat: no-repeat; 
+    background-size: cover; /* Faz a imagem cobrir toda a área do header */
+    background-position: center;
+    max-width: 100vw ;
+    height: 8rem;
+    
+    
+
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #8e40f3;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: #191818;
+
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#sobre {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 30px; 
+
+    .txt_sobre {
+        width: 70rem;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        h3 {
+            color: #9747FF;
+            font-size: 25px; }
+        p { 
+            color: #5D5D5D;
+            
+    
+        }
+    }
+    
+    .perfil {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        
+        img{
+            width: 12rem ;
+            border: 3px, solid #9747FF;
+            border-radius: 100px;
+        }
+    
+        
+        h3 {
+           font-size: 16px;
+           color: #7657a0;
+        }
+    }
+
+
+}
+
+#area {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 80px, 70px;
+
+    .txt_area {
+        width: 70rem;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        font-size: 16px;
+        
+        
+        h3 {
+            color: #9747FF;
+            font-size: 25px; }
+        p { 
+            color: #5D5D5D;
+            
+    
+        }
+
+
+    }
+
+    .design {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+        img {
+            width: 25rem ;
+            border-radius: 20px;
+           
+          
+           
+        }
+    
+
+    
+  
+
+
+}
+}
+
+
+#passos {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 70px;
+
+    .txt_area {
+        width: 70rem;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        font-size: 16px;
+        
+        
+        h3 {
+            color: #9747FF;
+            font-size: 25px; }
+        p { 
+            color: #5D5D5D;
+            
+    
+        }
+
+
+    }
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+    img {
+        width: 25rem ;
+        border-radius: 20px; 
+       
+       
+    }
+}
+
+
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #9747FF;
+}
+
+
+
+
+img:hover {
+    cursor: pointer;
+    transform: scale(1.1);  
+    transition: 0.8s;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
